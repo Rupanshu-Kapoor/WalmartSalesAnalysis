@@ -66,7 +66,7 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 
 2. **Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer the listed questions and aims of this project.
 
-3. **Conclusion:**
+
 
 ## Business Questions To Answer
 
@@ -144,30 +144,7 @@ $ \text{Gross Margin Percentage} = \frac{\text{gross income}}{\text{total revenu
 
 ## Code
 
-For the rest of the code, check the [SQL_queries.sql](https://github.com/Princekrampah/WalmartSalesAnalysis/blob/master/SQL_queries.sql) file
-
-```sql
--- Create database
-CREATE DATABASE IF NOT EXISTS walmartSales;
-
--- Create table
-CREATE TABLE IF NOT EXISTS sales(
-	invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
-    branch VARCHAR(5) NOT NULL,
-    city VARCHAR(30) NOT NULL,
-    customer_type VARCHAR(30) NOT NULL,
-    gender VARCHAR(30) NOT NULL,
-    product_line VARCHAR(100) NOT NULL,
-    unit_price DECIMAL(10,2) NOT NULL,
-    quantity INT NOT NULL,
-    tax_pct FLOAT(6,4) NOT NULL,
-    total DECIMAL(12, 4) NOT NULL,
-    date DATETIME NOT NULL,
-    time TIME NOT NULL,
-    payment VARCHAR(15) NOT NULL,
-    cogs DECIMAL(10,2) NOT NULL,
-    gross_margin_pct FLOAT(11,9),
-    gross_income DECIMAL(12, 4),
-    rating FLOAT(2, 1)
-);
-```
+1. For [ETL](https://github.com/Rupanshu-Kapoor/WalmartSalesAnalysis/blob/main/ETL.sql) queries.
+2. For [Product](https://github.com/Rupanshu-Kapoor/WalmartSalesAnalysis/blob/main/Product_query.sql) queries.
+3. For [Sales](https://github.com/Rupanshu-Kapoor/WalmartSalesAnalysis/blob/main/Product_query.sql) queries.
+4. For [Customer](https://github.com/Rupanshu-Kapoor/WalmartSalesAnalysis/blob/main/Customer_query.sql) queries.
