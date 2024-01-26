@@ -75,7 +75,7 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 1. How many unique cities does the data have?
 2. How many unique branch does the data have?
 
-### Product
+### [Product](https://github.com/Rupanshu-Kapoor/WalmartSalesAnalysis/blob/main/Product_query.sql).
 
 1. How many unique product lines does the data have?
 2. What is the most common payment method?
@@ -90,14 +90,14 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 11. What is the most common product line by gender?
 12. What is the average rating of each product line?
 
-### Sales
+### [Sales](https://github.com/Rupanshu-Kapoor/WalmartSalesAnalysis/blob/main/Product_query.sql).
 
 1. Number of sales made in each time of the day per weekday
 2. Which of the customer types brings the most revenue?
 3. Which city has the largest tax percent/ VAT (**Value Added Tax**)?
 4. Which customer type pays the most in VAT?
 
-### Customer
+### [Customer](https://github.com/Rupanshu-Kapoor/WalmartSalesAnalysis/blob/main/Customer_query.sql)
 
 1. How many unique customer types does the data have?
 2. How many unique payment methods does the data have?

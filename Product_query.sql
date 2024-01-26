@@ -109,10 +109,7 @@ GROUP BY
 ORDER BY 
 	VAT DESC LIMIT 1;
  
--- 9. Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
-
-
--- 10. Which branch sold more products than average product sold?
+-- 9. Which branch sold more products than average product sold?
 SELECT * FROM SALES;
 SELECT 
 	BRANCH,
@@ -126,7 +123,7 @@ HAVING
     
 SELECT AVG(QUANTITY) FROM SALES;
 
--- 11. What is the most common product line by gender?
+-- 10. What is the most common product line by gender?
 SELECT 
 	GENDER, `PRODUCT LINE`, `COUNT`, `RANK`
 FROM (
@@ -143,7 +140,7 @@ FROM (
 WHERE `RANK` = 1;
 
 
--- 12. What is the average rating of each product line?
+-- 11. What is the average rating of each product line?
 
 SELECT 
 	PRODUCT_LINE AS `PRODUCT LINE`, 
