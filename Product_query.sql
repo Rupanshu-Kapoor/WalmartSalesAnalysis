@@ -149,14 +149,3 @@ FROM
 	SALES
 GROUP BY 
 	PRODUCT_LINE;
-    
-    
-    
-select
-	product_line,
-    round(avg(total),2) as avg_sales,
-    (case
-		when AVG(total) > (SELECT AVG(total) FROM sales) then "Good"
-        else "Bad"
-	end) as remarks
-from sales;
